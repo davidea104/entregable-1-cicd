@@ -21,7 +21,7 @@ jobs:
         # 4. Reemplaza [NOMBRES COMPLETOS] con los nombres de todos los integrantes.
         # 5. ¿Qué comando de shell usarías para obtener la fecha y hora?
         run: |
-          echo "Hola, somos David Gustavo Moreno Morán | Angélica María Martínez Carmona  y este es nuestro primer workflow!"  
+          echo "Hola, somos David Gustavo Moreno Morán | Angélica María Martínez Carmona y este es nuestro primer workflow!"  
           echo "La fecha y hora actual es: $(date)"  
 
       - name: Configurar Python
