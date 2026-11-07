@@ -27,7 +27,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v7
         with:
-          python-version: ??? # 6. Usa una versión mantenida; recomendada: '3.13'.
+          python-version: '3.14' # 6. Usa una versión mantenida; recomendada: '3.13'.
 
       - name: Ejecutar script Python
-        run: ??? #7. Completa para ejecutar el script de python. Pista: python <nombre_archivo>
+        run: python my_script.py #7. Completa para ejecutar el script de python. Pista: python <nombre_archivo>
